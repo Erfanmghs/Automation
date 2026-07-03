@@ -3,8 +3,6 @@
 
 A simple Bash script for passive subdomain enumeration using multiple well-known OSINT tools.
 
-The script runs each tool **sequentially** (not in parallel), hides their output, displays a clean progress dashboard, and saves the final results to user-defined files.
-
 ## Features
 
 * Passive subdomain enumeration
