@@ -44,19 +44,19 @@ Install the following tools before running the script:
 ```bash
 git clone https://github.com/yourusername/ultimate-passive-recon.git
 cd ultimate-passive-recon
-chmod +x script.sh
+chmod +x passive.sh
 ```
 
 ## Usage
 
 ```bash
-./script.sh <domain> <subs_file> <alive_file>
+./passive.sh <domain> <subs_file> <alive_file>
 ```
 
 Example:
 
 ```bash
-./script.sh snapp.ir subs.txt alive.txt
+./passive.sh snapp.ir subs.txt alive.txt
 ```
 
 ## Output
@@ -107,7 +107,7 @@ findomain
       ↓
 Remove Duplicates
       ↓
-httpx
+httpx (Active)
       ↓
 Alive Hosts
 ```
